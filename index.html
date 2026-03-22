@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threnty — Rest Your Eyes. Every 20 Minutes.</title>
+  <meta name="description"
+    content="Threnty is a macOS menu bar app that reminds you to follow the 20-20-20 rule: every 20 minutes, look at something 20 meters away for 20 seconds.">
+  <meta name="keywords" content="20-20-20 rule, eye care, macOS menu bar app, eye strain, screen break reminder">
+  <link rel="canonical" href="https://threnty.app/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Threnty — Rest Your Eyes. Every 20 Minutes.">
+  <meta property="og:description"
+    content="A macOS menu bar app that reminds you to follow the 20-20-20 rule and protect your eyes from screen strain.">
+  <meta property="og:image" content="https://threnty.app/assets/icon.png">
+  <meta property="og:url" content="https://threnty.app/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Threnty — Rest Your Eyes. Every 20 Minutes.">
+  <meta name="twitter:description"
+    content="A macOS menu bar app that reminds you to follow the 20-20-20 rule and protect your eyes from screen strain.">
+  <meta name="twitter:image" content="https://threnty.app/assets/icon.png">
+
+  <!-- TODO: Add icon to assets/icon.png (export from ../Threnty/threnty/Assets.xcassets/AppIcon.appiconset/) -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Threnty",
+    "operatingSystem": "macOS",
+    "applicationCategory": "HealthApplication",
+    "description": "A macOS menu bar app that reminds you to follow the 20-20-20 eye care rule.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Yagiz Gunes Teker"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/icon.png" alt="Threnty app icon" width="32" height="32">
+        Threnty
+      </a>
+      <ul class="nav-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <img src="assets/icon.png" alt="Threnty app icon" class="hero-icon" width="120" height="120">
+        <h1>Threnty</h1>
+        <p class="tagline">Rest your eyes. Every 20 minutes.</p>
+        <div class="hero-actions">
+          <a href="https://github.com/ygteker/Threnty" target="_blank" rel="noopener" class="btn-secondary">
+            View on GitHub
+          </a>
+          <a href="#" class="btn-primary" aria-label="Download Threnty (coming soon)">
+            Download for macOS
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Why Threnty?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">👁</div>
+            <h3>20-20-20 Rule</h3>
+            <p>Every 20 minutes, look at something 20 meters away for 20 seconds. Threnty keeps you on schedule,
+              automatically.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">📍</div>
+            <h3>Menu Bar Timer</h3>
+            <p>Lives quietly in your menu bar with a live countdown. No Dock icon, no extra windows — just the info you
+              need.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🖥</div>
+            <h3>Full-Screen Overlay</h3>
+            <p>When it's time to rest, a gentle overlay appears on every display with a 20-second countdown, then
+              dismisses itself.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🔁</div>
+            <h3>Set &amp; Forget</h3>
+            <p>Hit Start and walk away. Threnty cycles automatically — work, break, repeat — until you choose to stop.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screenshots" id="screenshots">
+      <div class="container">
+        <h2 class="section-title">See It in Action</h2>
+        <div class="screenshots-scroll">
+          <div class="mac-screenshot">
+            <img src="assets/screenshot_1.png"
+              alt="Threnty menu bar popover showing the countdown timer and Start button" width="460" height="300">
+          </div>
+          <div class="mac-screenshot">
+            <img src="assets/screenshot_2.png" alt="Threnty full-screen break overlay with 20-second countdown"
+              width="460" height="300">
+          </div>
+          <div class="mac-screenshot">
+            <img src="assets/screenshot_3.png" alt="Threnty break overlay on multiple displays" width="460"
+              height="300">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+      <p class="footer-credit">Made by Yagiz Gunes Teker</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
